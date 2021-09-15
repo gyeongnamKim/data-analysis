@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 #파일 읽어오기
-graduates_data = pd.read_excel('./2016_middle_shcool_graduates_report.xlsx')
+graduates_data = pd.read_excel('./data/2016_middle_shcool_graduates_report.xlsx')
 del graduates_data['Unnamed: 0']
 #행,열 이름 출력하기
 print(graduates_data.index)

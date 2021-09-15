@@ -1,7 +1,7 @@
 import pandas as pd
 
 #파일 읽어오기
-file_drinks = pd.read_csv('./drinks.csv')
+file_drinks = pd.read_csv('./data/drinks.csv')
 
 #continent의 Nan 값 OT로 교체
 file_drinks.continent = file_drinks.continent.fillna('OT')

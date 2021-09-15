@@ -2,7 +2,7 @@ import pandas as p
 #소수점 제한두기
 p.options.display.float_format = '{:.2f}'.format
 #파일 가져오기 (encoding="cp949"는 엑셀파일 불러올때 한글이 안깨진다)
-csv_read = p.read_csv('./apt.csv', encoding="cp949")
+csv_read = p.read_csv('./data/apt.csv', encoding="cp949")
 #자료 수
 print('자료 수\t\t행 수 :',len(csv_read.index))
 print('\t\t\t열 수 :',len(csv_read.columns))
